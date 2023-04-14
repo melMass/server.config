@@ -24,3 +24,6 @@ www
 .npm
 .rustup/*
 !.rustup/settings.toml
+
+.config/configstore
+.config/nushell/history.txt
