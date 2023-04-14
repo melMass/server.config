@@ -541,6 +541,8 @@ let-env PATH = ($env.PATH | append /opt/alt/alt-ImageMagick/usr/bin/)
 # Python
 let-env PATH = ($env.PATH | append /opt/alt/python310/bin/)
 
+# NodeJS
+let-env PATH = ($env.PATH | append /opt/alt/alt-nodejs16/root/usr/bin/)
 
 source aliases.nu
 source prompt.nu
