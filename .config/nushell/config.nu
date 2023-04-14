@@ -535,6 +535,12 @@ let-env config = {
   ]
 }
 
+# ImageMagick
+let-env PATH = ($env.PATH | append /opt/alt/alt-ImageMagick/usr/bin/)
+
+# Python
+let-env PATH = ($env.PATH | append /opt/alt/python310/bin/)
+
 
 source aliases.nu
 source prompt.nu
