@@ -1,5 +1,5 @@
 # .bash_profile
-
+echo "BASH PROFILE"
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
