@@ -8,5 +8,6 @@ fi
 # User specific environment and startup programs
 . "$HOME/.cargo/env"
 
-~/dev/nu/nu
+# run nu on start
+nu
 
