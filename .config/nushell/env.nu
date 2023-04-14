@@ -76,3 +76,15 @@ let-env NU_PLUGIN_DIRS = [
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
+
+
+let-env EDITOR = "vi"
+
+
+let starship_cache =  "~/.cache/starship"
+
+if not ($starship_cache | path exists) {
+  #: Starship
+  mkdir $starship_cache 
+  starship init nu | save -f ~/.cache/starship/init.nu
+}

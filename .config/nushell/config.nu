@@ -534,3 +534,7 @@ let-env config = {
     }
   ]
 }
+
+
+source aliases.nu
+source prompt.nu
