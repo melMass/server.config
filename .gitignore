@@ -23,6 +23,11 @@ www
 .rustup/*
 .config/configstore
 .config/nushell/history.txt
+.npm_global
+.python_history
+
+# extras
+index.nuon
 
 # settings
 !.rustup/settings.toml
@@ -30,3 +35,4 @@ www
 # projects
 dev
 nodevenv
+project-*
