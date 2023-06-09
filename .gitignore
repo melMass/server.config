@@ -1,16 +1,14 @@
+# base stuff
 .bash_history
 .cagefs
 .cargo
 .cl.selector
 .cpanel
 .cphorde
-dev
 etc
 .htpasswds
 .lastlogin
 mail
-nodevenv
-popo
 public_ftp
 public_html
 .ssh
@@ -23,7 +21,12 @@ www
 .sitepad
 .npm
 .rustup/*
-!.rustup/settings.toml
-
 .config/configstore
 .config/nushell/history.txt
+
+# settings
+!.rustup/settings.toml
+
+# projects
+dev
+nodevenv

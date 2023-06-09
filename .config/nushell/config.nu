@@ -546,3 +546,4 @@ let-env PATH = ($env.PATH | append /opt/alt/alt-nodejs16/root/usr/bin/)
 
 source aliases.nu
 source prompt.nu
+use git.nu *
