@@ -543,6 +543,7 @@ let-env PATH = ($env.PATH | append /opt/alt/python310/bin/)
 
 # NodeJS
 let-env PATH = ($env.PATH | append /opt/alt/alt-nodejs16/root/usr/bin/)
+let-env PATH = ($env.PATH | append ("~/.npm_global/bin/" | path expand))
 
 source aliases.nu
 source prompt.nu
